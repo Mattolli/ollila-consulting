@@ -56,7 +56,7 @@ export const ServicesSection = () => (
     </div>
 
     {/* Desktop: grid */}
-    <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-16 lg:px-24">
+    <div className="hidden lg:grid lg:grid-cols-4 gap-6 px-16 lg:px-24">
       {services.map((s) => (
         <div
           key={s.title}
