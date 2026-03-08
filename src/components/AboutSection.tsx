@@ -33,7 +33,7 @@ export const AboutSection = () => {
             </a>
             <button
               onClick={handleCopy}
-              className="text-sm md:text-base text-primary-foreground bg-primary hover:bg-primary/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
+              className="text-sm md:text-base text-primary-foreground bg-green-400 hover:bg-green-400/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
             >
               {copied ? "Email copied!" : "Say hello!"}
             </button>
