@@ -34,15 +34,15 @@ export const ServicesSection = () => (
     <p className="text-sm text-muted-foreground mb-8 uppercase tracking-widest px-6 md:px-16 lg:px-24">What I Do</p>
 
     {/* Mobile: horizontal scroll */}
-    <div className="flex items-center gap-2 px-6 mb-3 lg:hidden">
+    <div className="flex items-center gap-2 px-6 md:px-16 mb-3 lg:hidden">
       <span className="text-xs text-muted-foreground">Swipe to explore</span>
       <span className="text-muted-foreground animate-pulse">→</span>
     </div>
-    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory px-6 pb-4 lg:hidden scrollbar-hide">
-      {services.map((s) => (
+    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pl-6 md:pl-16 pb-4 lg:hidden scrollbar-hide">
+      {services.map((s, i) => (
         <div
           key={s.title}
-          className={`rounded-2xl p-5 min-w-[200px] max-w-[220px] shrink-0 snap-start bg-gradient-to-br from-service-card-from to-service-card-to border ${s.borderColor}`}
+          className={`rounded-2xl p-5 min-w-[200px] max-w-[220px] shrink-0 snap-start bg-gradient-to-br from-service-card-from to-service-card-to border ${s.borderColor} ${i === services.length - 1 ? 'mr-6 md:mr-16' : ''}`}
         >
           <div className="h-[80px]">
             <span className={`text-xs font-bold uppercase tracking-wider ${s.tagColor}`}>
