@@ -20,9 +20,12 @@ const services = [
 export const ServicesSection = () => (
   <section className="px-6 md:px-16 lg:px-24 py-24 md:py-32 max-w-[1400px] mx-auto">
     <p className="text-sm text-muted-foreground mb-6">Services</p>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {services.map((s) => (
-        <div key={s.title} className="border-t border-border pt-6">
+        <div
+          key={s.title}
+          className="rounded-lg p-6 bg-gradient-to-br from-service-card-from to-service-card-to border border-border hover:border-primary/30 transition-colors duration-300"
+        >
           <h3 className="text-base font-bold text-foreground mb-3">{s.title}</h3>
           <p className="text-sm text-muted-foreground leading-relaxed">{s.description}</p>
         </div>
