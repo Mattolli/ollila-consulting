@@ -3,6 +3,7 @@ export const Navbar = () => (
     <div className="flex gap-6 text-sm text-green-400 font-medium bg-background/90 lg:bg-transparent rounded-full px-4 py-2 lg:p-0">
       <a href="#about" className="hover:text-green-300 transition-colors duration-200">About</a>
       <a href="#services" className="hover:text-green-300 transition-colors duration-200">Services</a>
+      <a href="/privacy" className="hover:text-green-300 transition-colors duration-200">Privacy</a>
     </div>
   </nav>
 );
