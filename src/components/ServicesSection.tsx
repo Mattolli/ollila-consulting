@@ -41,6 +41,7 @@ export const ServicesSection = () => (
           <span className={`text-xs font-bold uppercase tracking-wider ${s.tagColor}`}>
             {s.tag}
           </span>
+          <div className="flex-1" />
           <h3 className="text-lg font-bold text-foreground">{s.title}</h3>
           <p className="text-sm text-muted-foreground leading-relaxed">{s.description}</p>
         </div>
