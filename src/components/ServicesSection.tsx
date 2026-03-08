@@ -34,7 +34,7 @@ export const ServicesSection = () => (
     <p className="text-sm text-muted-foreground mb-8 uppercase tracking-widest px-6 md:px-16 lg:px-24">What I Do</p>
 
     {/* Mobile: horizontal scroll */}
-    <div className="flex items-center gap-2 px-6 mb-3 lg:hidden">
+    <div className="flex items-center gap-2 px-6 md:px-16 mb-3 lg:hidden">
       <span className="text-xs text-muted-foreground">Swipe to explore</span>
       <span className="text-muted-foreground animate-pulse">→</span>
     </div>
