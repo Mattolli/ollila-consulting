@@ -47,6 +47,7 @@ export const AboutSection = () => {
           />
         </div>
       </div>
+      <div className="section-divider w-full mt-24 md:mt-32" />
     </section>
   );
 };
