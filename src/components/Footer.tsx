@@ -4,5 +4,6 @@ export const Footer = () => (
       <p className="font-bold text-foreground">Ollila Consulting</p>
       <p>Helsinki, FI</p>
     </div>
+    <p className="text-xs text-muted-foreground mt-8">© 2026 Ollila Consulting. All rights reserved.</p>
   </footer>
 );
