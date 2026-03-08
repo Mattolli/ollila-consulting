@@ -36,12 +36,14 @@ export const ServicesSection = () => (
       {services.map((s) => (
         <div
           key={s.title}
-          className={`rounded-2xl p-8 min-h-[280px] bg-gradient-to-br from-service-card-from to-service-card-to border ${s.borderColor} hover:border-primary/30 transition-colors duration-300 flex flex-col`}
+          className={`rounded-2xl p-8 bg-gradient-to-br from-service-card-from to-service-card-to border ${s.borderColor} hover:border-primary/30 transition-colors duration-300`}
         >
-          <span className={`text-xs font-bold uppercase tracking-wider ${s.tagColor} mb-auto`}>
-            {s.tag}
-          </span>
-          <h3 className="text-lg font-bold text-foreground mb-2 mt-16">{s.title}</h3>
+          <div className="h-[120px]">
+            <span className={`text-xs font-bold uppercase tracking-wider ${s.tagColor}`}>
+              {s.tag}
+            </span>
+          </div>
+          <h3 className="text-lg font-bold text-foreground mb-2">{s.title}</h3>
           <p className="text-sm text-muted-foreground leading-relaxed">{s.description}</p>
         </div>
       ))}
