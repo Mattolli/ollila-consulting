@@ -38,7 +38,7 @@ export const ServicesSection = () => (
       <span className="text-xs text-muted-foreground">Swipe to explore</span>
       <span className="text-muted-foreground animate-pulse">→</span>
     </div>
-    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory px-6 pb-4 md:hidden scrollbar-hide">
+    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory px-6 pb-4 lg:hidden scrollbar-hide">
       {services.map((s) => (
         <div
           key={s.title}
