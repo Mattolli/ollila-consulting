@@ -39,7 +39,7 @@ export const AboutSection = () => {
             </button>
           </div>
         </div>
-        <div className="w-full md:w-[420px] lg:w-[500px] shrink-0">
+        <div className="w-full lg:w-[420px] xl:w-[500px] shrink-0">
           <img
             src={mattiPhoto}
             alt="Matti Ollila"
