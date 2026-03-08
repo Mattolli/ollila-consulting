@@ -9,7 +9,7 @@ export const AboutSection = () => (
           I figure out what makes people tap "Get" or "Add to Cart." I run tests, build hypotheses, and write briefs that help design teams create store pages that actually convert.
         </p>
         <p>
-          I've worked with genres like strategy, puzzle, simulation, action, and RPGs, but the approach works for any category. Mobile first, but also PC and console.
+          I've worked with game genres like strategy, puzzle, simulation, action, and RPGs, but the approach works for any category. Mobile first, but also PC and console.
         </p>
         <p>Currently consulting for Supercell.</p>
       </div>
