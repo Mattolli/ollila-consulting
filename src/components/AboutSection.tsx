@@ -11,7 +11,7 @@ export const AboutSection = () => {
   };
 
   return (
-    <section className="px-6 md:px-16 lg:px-24 py-24 md:py-32 max-w-[1400px] mx-auto">
+    <section className="relative px-6 md:px-16 lg:px-24 py-24 md:py-32 max-w-[1400px] mx-auto">
       <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-10">About</h2>
       <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-end">
         <div className="max-w-2xl space-y-6 text-sm md:text-base text-muted-foreground leading-relaxed">
