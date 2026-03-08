@@ -5,7 +5,7 @@ export const ContactSection = () => (
       href="https://www.linkedin.com/in/mattiollila/"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-sm md:text-base text-muted-foreground underline underline-offset-4 hover:text-foreground transition-colors duration-200"
+      className="inline-block text-sm md:text-base text-primary-foreground bg-primary hover:bg-primary/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
     >
       Connect on LinkedIn
     </a>
