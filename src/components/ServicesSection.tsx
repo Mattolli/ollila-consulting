@@ -34,6 +34,10 @@ export const ServicesSection = () => (
     <p className="text-sm text-muted-foreground mb-8 uppercase tracking-widest px-6 md:px-16 lg:px-24">What I Do</p>
 
     {/* Mobile: horizontal scroll */}
+    <div className="flex items-center gap-2 px-6 mb-3 md:hidden">
+      <span className="text-xs text-muted-foreground">Swipe to explore</span>
+      <span className="text-muted-foreground animate-pulse">→</span>
+    </div>
     <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory px-6 pb-4 md:hidden scrollbar-hide">
       {services.map((s) => (
         <div
