@@ -36,7 +36,7 @@ export const ServicesSection = () => (
       {services.map((s) => (
         <div
           key={s.title}
-          className={`rounded-2xl p-6 bg-gradient-to-br from-service-card-from to-service-card-to border ${s.borderColor} hover:border-primary/30 transition-colors duration-300 flex flex-col gap-4`}
+          className={`rounded-2xl p-8 py-10 bg-gradient-to-br from-service-card-from to-service-card-to border ${s.borderColor} hover:border-primary/30 transition-colors duration-300 flex flex-col gap-4`}
         >
           <span className={`text-xs font-bold uppercase tracking-wider ${s.tagColor}`}>
             {s.tag}
