@@ -30,9 +30,29 @@ const services = [
 ];
 
 export const ServicesSection = () => (
-  <section className="px-6 md:px-16 lg:px-24 py-24 md:py-32 max-w-[1400px] mx-auto">
-    <p className="text-sm text-muted-foreground mb-8 uppercase tracking-widest">What I Do</p>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" style={{ gridTemplateRows: 'auto' }}>
+  <section className="py-24 md:py-32 max-w-[1400px] mx-auto">
+    <p className="text-sm text-muted-foreground mb-8 uppercase tracking-widest px-6 md:px-16 lg:px-24">What I Do</p>
+
+    {/* Mobile: horizontal scroll */}
+    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory px-6 pb-4 md:hidden scrollbar-hide">
+      {services.map((s) => (
+        <div
+          key={s.title}
+          className={`rounded-2xl p-6 min-w-[240px] max-w-[260px] shrink-0 snap-start bg-gradient-to-br from-service-card-from to-service-card-to border ${s.borderColor}`}
+        >
+          <div className="h-[80px]">
+            <span className={`text-xs font-bold uppercase tracking-wider ${s.tagColor}`}>
+              {s.tag}
+            </span>
+          </div>
+          <h3 className="text-base font-bold text-foreground mb-2">{s.title}</h3>
+          <p className="text-sm text-muted-foreground leading-relaxed">{s.description}</p>
+        </div>
+      ))}
+    </div>
+
+    {/* Desktop: grid */}
+    <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-16 lg:px-24">
       {services.map((s) => (
         <div
           key={s.title}

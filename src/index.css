@@ -63,4 +63,12 @@
     background: linear-gradient(90deg, hsl(190 100% 60% / 0), hsl(190 100% 60% / 0.15), hsl(190 100% 60% / 0));
     height: 1px;
   }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
