@@ -53,3 +53,14 @@
     font-family: 'IBM Plex Mono', monospace;
   }
 }
+
+@layer utilities {
+  .glow-text {
+    text-shadow: 0 0 40px hsl(190 100% 60% / 0.15);
+  }
+
+  .section-divider {
+    background: linear-gradient(90deg, hsl(190 100% 60% / 0), hsl(190 100% 60% / 0.15), hsl(190 100% 60% / 0));
+    height: 1px;
+  }
+}
