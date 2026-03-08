@@ -47,6 +47,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "service-card-from": "hsl(var(--service-card-from))",
+        "service-card-to": "hsl(var(--service-card-to))",
+          foreground: "hsl(var(--card-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

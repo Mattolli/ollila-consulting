@@ -13,6 +13,10 @@
     --accent: 160 100% 40%;
     --accent-foreground: 160 100% 50%;
 
+    --service-card-from: 190 80% 8%;
+    --service-card-to: 180 60% 4%;
+    --accent-foreground: 160 100% 50%;
+
     --card: 0 0% 0%;
     --card-foreground: 190 100% 60%;
     --popover: 0 0% 0%;
