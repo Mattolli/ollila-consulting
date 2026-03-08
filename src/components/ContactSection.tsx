@@ -7,7 +7,7 @@ export const ContactSection = () => (
       rel="noopener noreferrer"
       className="inline-block text-sm md:text-base text-primary-foreground bg-primary hover:bg-primary/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
     >
-      Connect on LinkedIn
+      LinkedIn
     </a>
   </section>
 );
