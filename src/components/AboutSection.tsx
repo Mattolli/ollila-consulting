@@ -13,7 +13,7 @@ export const AboutSection = () => (
         </p>
         <p>Currently consulting for Supercell.</p>
       </div>
-      <div className="w-full md:w-[320px] lg:w-[380px] shrink-0">
+      <div className="w-full md:w-[420px] lg:w-[500px] shrink-0">
         <img
           src={mattiPhoto}
           alt="Matti Ollila"
