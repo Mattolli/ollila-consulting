@@ -2,8 +2,9 @@ import mattiPhoto from "@/assets/Matti2026.png";
 
 export const AboutSection = () => (
   <section className="px-6 md:px-16 lg:px-24 py-24 md:py-32 max-w-[1400px] mx-auto">
+    <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-10">About</h2>
     <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-start">
-      <div className="max-w-2xl space-y-6 text-sm md:text-base text-muted-foreground leading-relaxed pt-2">
+      <div className="max-w-2xl space-y-6 text-sm md:text-base text-muted-foreground leading-relaxed">
         <p>
           I figure out what makes people tap "Get" or "Add to Cart." I run tests, build hypotheses, and write briefs that help design teams create store pages that actually convert.
         </p>
