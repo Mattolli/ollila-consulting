@@ -34,11 +34,11 @@ export const ServicesSection = () => (
     <p className="text-sm text-muted-foreground mb-8 uppercase tracking-widest px-6 md:px-16 lg:px-24">What I Do</p>
 
     {/* Mobile: horizontal scroll */}
-    <div className="flex items-center gap-2 px-6 mb-3 md:hidden">
+    <div className="flex items-center gap-2 px-6 mb-3 lg:hidden">
       <span className="text-xs text-muted-foreground">Swipe to explore</span>
       <span className="text-muted-foreground animate-pulse">→</span>
     </div>
-    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory px-6 pb-4 md:hidden scrollbar-hide">
+    <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory px-6 pb-4 lg:hidden scrollbar-hide">
       {services.map((s) => (
         <div
           key={s.title}
@@ -56,7 +56,7 @@ export const ServicesSection = () => (
     </div>
 
     {/* Desktop: grid */}
-    <div className="hidden md:grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-16 lg:px-24">
+    <div className="hidden lg:grid lg:grid-cols-4 gap-6 px-16 lg:px-24">
       {services.map((s) => (
         <div
           key={s.title}
