@@ -6,10 +6,10 @@ export const AboutSection = () => (
     <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-end">
       <div className="max-w-2xl space-y-6 text-sm md:text-base text-muted-foreground leading-relaxed">
         <p>
-          I'm focused on games. I figure out what makes people tap "Get" or "Add to Cart." I run tests, build hypotheses, and write briefs that help design teams create store pages that actually convert.
+          I figure out what makes people tap "Get" or "Add to Cart." I run tests, build hypotheses, and write briefs that help design teams create store pages that actually convert.
         </p>
         <p>
-          I've worked with game genres like strategy, puzzle, simulation, action, and RPGs, but the approach works for any category. Mobile first, but also PC and console.
+          I'm mostly focused on games — I've worked with genres like strategy, puzzle, simulation, action, and RPGs, but the approach works for any category. Mobile first, but also PC and console.
         </p>
         <p>Currently consulting for Supercell.</p>
       </div>
