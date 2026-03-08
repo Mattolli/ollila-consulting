@@ -27,13 +27,13 @@ export const AboutSection = () => {
               href="https://www.linkedin.com/in/mattiollila/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block text-sm md:text-base text-primary-foreground bg-primary hover:bg-primary/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
+              className="inline-block text-sm md:text-base text-primary-foreground bg-green-400 hover:bg-green-400/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
             >
               LinkedIn
             </a>
             <button
               onClick={handleCopy}
-              className="text-sm md:text-base text-primary-foreground bg-primary hover:bg-primary/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
+              className="text-sm md:text-base text-primary-foreground bg-green-400 hover:bg-green-400/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
             >
               {copied ? "Email copied!" : "Say hello!"}
             </button>
