@@ -27,6 +27,13 @@ const services = [
     description: "Analyzing funnels, finding drop-offs, iterating toward higher conversion.",
     borderColor: "border-emerald-500/40",
   },
+  {
+    tag: "OPERATIONS",
+    tagColor: "text-amber-400",
+    title: "Product Marketing Support",
+    description: "Hands-on operational support to keep product marketing running smoothly.",
+    borderColor: "border-amber-500/40",
+  },
 ];
 
 export const ServicesSection = () => (
@@ -56,7 +63,7 @@ export const ServicesSection = () => (
     </div>
 
     {/* Desktop: grid */}
-    <div className="hidden lg:grid lg:grid-cols-4 gap-6 px-16 lg:px-24">
+    <div className="hidden lg:grid lg:grid-cols-5 gap-6 px-16 lg:px-24">
       {services.map((s) => (
         <div
           key={s.title}
