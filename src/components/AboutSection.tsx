@@ -24,7 +24,7 @@ export const AboutSection = () => {
           <p>Currently consulting for Supercell.</p>
           <div className="flex flex-wrap gap-4 pt-4">
             <a
-              href="https://www.linkedin.com/in/mattiollila/"
+              href="https://linkedin.com/in/mattiollila"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-sm md:text-base text-primary-foreground bg-green-400 hover:bg-green-400/80 rounded-full px-8 py-3 font-medium transition-colors duration-200"
