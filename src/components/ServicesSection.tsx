@@ -27,6 +27,13 @@ const services = [
     description: "Analyzing funnels, finding drop-offs, iterating toward higher conversion.",
     borderColor: "border-emerald-500/40",
   },
+  {
+    tag: "OPERATIONS",
+    tagColor: "text-amber-400",
+    title: "Product Marketing Support",
+    description: "Hands-on operational support to keep product marketing running smoothly.",
+    borderColor: "border-amber-500/40",
+  },
 ];
 
 export const ServicesSection = () => (
